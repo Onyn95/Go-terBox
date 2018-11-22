@@ -1,0 +1,25 @@
+/* Déclaration de la police */
+@font-face {
+    font-family: "blackjar";
+    src: url('../fonts/BLACKJAR.TTF');
+}
+@font-face {
+    font-family: "monof";
+    src: url('../fonts/monof55.ttf');
+}
+@font-face {
+    font-family: "walkay";
+    src: url('../fonts/Walkway\ Expand.ttf');
+}
+@font-face {
+    font-family: "neon2";
+    src: url('../fonts/neon2.ttf');
+}
+@font-face {
+    font-family: "daisy";
+    src: url('../fonts/Little\ Daisy.ttf');
+}
+@font-face {
+    font-family: "test";
+    src: url('../fonts/DESYREL_.ttf');
+}

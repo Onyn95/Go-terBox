@@ -1,0 +1,164 @@
+html, body, body > div, body > div > div, div.main {
+    width: 100%;
+    height: 100%;
+}
+
+div.container {
+    max-width: inherit;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul {
+    margin-bottom: 0 !important;
+}
+
+.headerstandard {
+    background-color: #333;
+    border-bottom: 1px solid #FFF;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    overflow: hidden;
+}
+
+header nav a {
+    margin: 0 15px 0 15px;
+}
+
+.main section {
+    height: 100%;
+    color: #F8F8F8;
+}
+
+div.headerstandard-inner > h1 {
+    color: orange;
+    font-size: 34px;
+    line-height: 56px;
+    margin-bottom: 0;
+}
+
+.main h1 {
+    font-size: 84px;
+    font-family: "blackjar";
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+}
+
+.main h4 {
+    font-family: "test";
+    text-shadow: 1px 0 1px black;
+    font-size: 34px;
+}
+
+.anchor {
+    display: block;
+    height: 100px;
+}
+
+nav.menustandard :nth-child(1) {
+    color: #eaf90d;
+}
+nav.menustandard :nth-child(2) {
+    color: #8fee04;
+}
+nav.menustandard :nth-child(3) {
+    color: orange;
+}
+nav.menustandard :nth-child(4) {
+    color: #11dad3;
+}
+nav.menustandard :nth-child(5) {
+    color: #2e66ff;
+}
+nav.menustandard :nth-child(6) {
+    color: #fb460d;
+}
+
+.main section.presentation {
+    background-color: #8FC93A;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari*/
+    background-size: cover;
+    box-shadow: inset 0 -5px 5px -5px #333;
+}
+
+.main section.team {
+    background-color: rgba(7, 190, 184, 1);
+    box-shadow: inset 0 -5px 5px -5px #333;
+}
+
+.main section.uniquevalue {
+    box-shadow: inset 0 -5px 5px -5px #333;
+    background-color: rgba(143, 201, 58, 1);
+}
+
+.main section.products {
+    background-color: rgba(255, 186, 8, 1);
+}
+
+.main section.contact {
+    background-color: #F25221;
+}
+
+.main section.trustus {
+    background-color: rgba(54, 100, 226, 1);
+    box-shadow: inset 0 -5px 5px -5px #333;
+}
+
+.main section div.masked-content {
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+div.main section.presentation div.masked-content {
+    background-color: rgba(0,0,0,0.5);
+}
+
+section.calltoaction {
+    height: 300px;
+    background-color: rgb(42, 200, 42);
+    box-shadow: inset 0 -5px 5px -5px #333, inset 0 5px 5px -5px #333;
+}
+
+section.calltoaction > div.masked-content {
+    padding-top: 80px;
+}
+
+section.calltoaction div.masked-content > h1 {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 30px;
+}
+*/
+footer.footer {
+    background-color: #333;
+    color: #d3d3d3;
+    width: 100%;
+}
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    .headerstandard {
+        display: none;
+    }
+    .main h1 {
+        font-size: 36px;
+    }
+    .main h4 {
+        font-size: 18px;
+    }
+    section.calltoaction div.masked-content > h1 {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* background-color: #ff7400 !important; */
+  /* background: repeating-linear-gradient(
+    45deg,
+    #3d3d3d,
+    #333 5px,
+    #3d3d3d 5px,
+    #333 10px
+  ); */
+}
+
+@media (max-width: 576px) {
+body{
+  background-color: #ff7400 !important; 
+  
+}
+}
+div.container{
+  text-align: center;
+  margin: auto;
+}
+
+form {
+  display: inline-block;
+  text-align: center;
+}
+input {
+  text-align: center;
+}
+
+p.center, span.center, h1.center, h2.center, h3.center, h4.center {
+  text-align: center;
+}
+
+h1.mainTitle {
+  font-size: 84px;
+  margin-top: 20px;
+}
+
+form > h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+form > input.form-control {
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 22px;
+  max-width: 340px;
+}
+
+form > p {
+  font-size: 18px;
+}
+
+div.blackMask {
+  border: 3px solid #fff;
+  border-radius: 10px;
+  background-color: RGBA(0, 0, 0, 0.5);
+  padding: 40px;
+  margin-top: 60px;
+  color: #eee;
+  text-align: justify;
+  font-size: 24px;
+}
+
+form.blackMask {
+  min-width: 400px;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: RGBA(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  color: #eee;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled{
+  cursor: not-allowed;
+}
+
+.navigation-menu {
+  position: relative;
+  z-index: 1000000;
+}
+
+.navigation-menu > ul {
+  line-height: 80px;
+  height: 80px;
+  background-color: #333;  
+  border-bottom: 1px solid #FFF;
+}
+
+ul > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul > li > a {
+  color :white;
+}
+
+ul > li.liSign{
+  float: right;
+}
+
+ul > li.liMenu{
+  float: left;
+}
+
+.container > h1 {
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+button.formSign {
+  width: 340px;
+}
+
+div.card {
+  background-color: grey;
+  cursor: pointer;
+}
+
+div.card:hover {
+  cursor: pointer;
+  border:2px solid black;
+ 
+  
+}
+
+div.card-body {
+  background-color: white;
+
+}
+div.avatar-wrapper {
+  
+}
+
+div.icon {
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+      width: 100%;
+  }
+
+  div.navigation-menu > ul {
+    height: 200px;
+    padding: 0;
+    text-align: center;
+    line-height: inherit;
+  }
+
+  div.navigation-menu > ul li {
+    float: initial;
+    width: 100%;
+    line-height: 48px;
+    height: 48px;
+    margin: 0;
+  }
+}
